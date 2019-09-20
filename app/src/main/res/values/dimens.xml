@@ -3,5 +3,6 @@
     <dimen name="utapp_tamanohint">18sp</dimen>
     <dimen name="utapp_tamanotextoboton">18sp</dimen>
     <dimen name="utapp_tamanoimagencuadrada">150dp</dimen>
-    <dimen name="utapp_tamanospinner">19sp</dimen>
+    <dimen name="utapp_tamanospinner">17sp</dimen>
+    <dimen name="utap_tamanopadding">10dp</dimen>
 </resources>

@@ -13,4 +13,5 @@
     <string name="utahapp_causabaja">Causa de la baja</string>
     <string name="utahapp_fechaposesion">Fecha de la toma de posesión</string>
     <string name="utahapp_fechacese">Fecha de cese</string>
+    <string name="utapp_literalcargo">Cargo</string>
 </resources>

@@ -72,6 +72,88 @@
                 android:inputType="textPersonName"
                 android:textSize="@dimen/utapp_tamanohint"
                 android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/et_profesionSocio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/utahapp_profesion"
+                android:inputType="textPersonName"
+                android:textSize="@dimen/utapp_tamanohint"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/et_fechaAlta"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/utahapp_fechaalta"
+                android:inputType="date"
+                android:textSize="@dimen/utapp_tamanohint"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/et_causaAlta"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/utahapp_causaalta"
+                android:inputType="textPersonName"
+                android:textSize="@dimen/utapp_tamanohint"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/et_fechaBaja"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/utahapp_fechabaja"
+                android:inputType="date"
+                android:textSize="@dimen/utapp_tamanohint"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/et_causaBaja"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/utahapp_causabaja"
+                android:inputType="textPersonName"
+                android:textSize="@dimen/utapp_tamanohint"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/utapp_literalcargo"
+                android:textSize="@dimen/utapp_tamanohint" />
+
+            <Spinner
+                android:id="@+id/sp_cargoSocio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/et_fechaTomaPosesion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/utahapp_fechaposesion"
+                android:inputType="date"
+                android:textSize="@dimen/utapp_tamanohint"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/et_fechaCese"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/utahapp_fechacese"
+                android:inputType="date"
+                android:textSize="@dimen/utapp_tamanohint"
+                android:textStyle="bold" />
         </LinearLayout>
     </ScrollView>
 
