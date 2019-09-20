@@ -11,6 +11,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@color/fondoInicio"
+        android:contentDescription="@string/utahapp_iwinicio"
+        android:onClick="llamadaMenu"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/logo_club" />

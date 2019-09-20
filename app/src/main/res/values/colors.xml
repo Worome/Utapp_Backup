@@ -4,4 +4,5 @@
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
     <color name="fondoInicio">#A73D7391</color>
+    <color name="utapp_fondogeneral">#DF223B2B</color>
 </resources>

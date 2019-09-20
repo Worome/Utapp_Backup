@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="utapp_tamanohint">20sp</dimen>
+    <dimen name="utapp_tamanohint">18sp</dimen>
     <dimen name="utapp_tamanotextoboton">18sp</dimen>
     <dimen name="utapp_tamanoimagencuadrada">150dp</dimen>
     <dimen name="utapp_tamanospinner">19sp</dimen>

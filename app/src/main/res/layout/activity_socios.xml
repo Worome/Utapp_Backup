@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/utapp_fondogeneral"
     tools:context=".Socios">
 
     <ImageView
@@ -13,6 +14,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginTop="8dp"
+        android:contentDescription="@string/utahapp_iwfotosocio"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/logo_club" />
@@ -29,15 +31,48 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical" />
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/editText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/utahapp_numerosocio"
+                android:inputType="number"
+                android:textSize="@dimen/utapp_tamanohint"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/et_nombreSocio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/utahapp_nombre"
+                android:inputType="textPersonName"
+                android:textSize="@dimen/utapp_tamanohint"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/et_apellidosSocio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/utahapp_apellidos"
+                android:inputType="textPersonName"
+                android:textSize="@dimen/utapp_tamanohint"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/et_nifSocio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/utahapp_nif"
+                android:inputType="textPersonName"
+                android:textSize="@dimen/utapp_tamanohint"
+                android:textStyle="bold" />
+        </LinearLayout>
     </ScrollView>
 
-    <EditText
-        android:id="@+id/editText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="number"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="179dp" />
 </android.support.constraint.ConstraintLayout>
