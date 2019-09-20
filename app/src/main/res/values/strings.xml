@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">Utapp</string>
+    <string name="utahapp_iwinicio">Logo del club</string>
+    <string name="utahapp_iwfotosocio">Foto del socio</string>
+    <string name="utahapp_numerosocio">Nº del socio</string>
+    <string name="utahapp_nombre">Nombre</string>
+    <string name="utahapp_apellidos">Apellidos</string>
+    <string name="utahapp_nif">N.I.F.</string>
+    <string name="utahapp_profesion">Profesión</string>
+    <string name="utahapp_fechaalta">Fecha de alta</string>
+    <string name="utahapp_causaalta">Causa del alta</string>
+    <string name="utahapp_fechabaja">Fecha de baja</string>
+    <string name="utahapp_causabaja">Causa de la baja</string>
+    <string name="utahapp_fechaposesion">Fecha de la toma de posesión</string>
+    <string name="utahapp_fechacese">Fecha de cese</string>
 </resources>
