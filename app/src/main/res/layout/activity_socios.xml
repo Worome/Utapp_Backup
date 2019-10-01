@@ -130,7 +130,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/utapp_literalcargo"
-                android:textSize="@dimen/utapp_tamanohint" />
+                android:textColor="@android:color/background_light"
+                android:textSize="@dimen/utapp_tamanoliteral"
+                android:textStyle="bold" />
 
             <Spinner
                 android:id="@+id/sp_cargoSocio"
