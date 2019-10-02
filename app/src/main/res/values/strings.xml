@@ -15,4 +15,5 @@
     <string name="utahapp_fechacese">Fecha de cese</string>
     <string name="utapp_literalcargo">Cargo</string>
     <string name="utapp_menugeneral_opc1">Configuración</string>
+    <string name="utapp_actionbutton_configurar">Configurar</string>
 </resources>

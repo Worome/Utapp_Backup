@@ -30,6 +30,7 @@ public class Socios extends AppCompatActivity {
 
     }
 
+    //  Primera parte de la construcción del Menú Overflow
     public boolean onCreateOptionsMenu(Menu menu){
 
         getMenuInflater().inflate(R.menu.menu_general, menu);
@@ -37,6 +38,7 @@ public class Socios extends AppCompatActivity {
 
     }
 
+    //  Segunda parte de la construcción del Menú Overflow
     public boolean onOptionsItemSelected(MenuItem item){
 
         int opciones = item.getItemId();
@@ -44,6 +46,10 @@ public class Socios extends AppCompatActivity {
         switch (opciones){
             case R.id.Opcion1:
                 Toast.makeText(this,"Configura todo lo que quieras",Toast.LENGTH_LONG).show();
+                break;
+            case R.id.boton1:
+                Toast.makeText(this,"Configura todo lo que quieras desde el botón",Toast.LENGTH_LONG).show();
+                break;
         }
 
         return super.onOptionsItemSelected(item);
